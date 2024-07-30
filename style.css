@@ -1,0 +1,164 @@
+body{
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/** header**/
+
+header{
+    background-color: #35424a;
+    border-bottom: 3px solid orangered;
+}
+
+header .container{
+  
+    color: #ffffff;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container ul li {
+    list-style-type: none;
+ 
+}
+header ul li a{
+    text-decoration: none ;
+    color: #ffffff;
+    font-size: 16px;
+}
+header ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header nav{
+
+ width: 300px; 
+}
+
+header .branding span{
+    color: orangered;
+}
+header ul li a:hover{
+    color: orangered;
+}
+
+
+#showcase{
+    background-image: url("background.jpg");
+    background-size: cover;
+    height: 450px;
+    opacity: .8;
+    display: flex;
+   
+    justify-content:center ;
+    align-items:center ;
+}
+
+#showcase .container{
+   text-align: center;
+    
+}
+
+#showcase .container h1{
+    color: orangered;
+    font-size: 50px;
+     
+ }
+ #showcase .container p{
+    color: black;
+    font-size: larger;
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+ }
+
+ #newsletter{
+    background-color: #35424a;
+    height: 65px;
+ }
+ #newsletter .container{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ #newsletter .container h1{
+    color: orangered;
+    font-size: 23px;
+ }
+
+ #newsletter .container input{
+    outline: none;
+    margin: 0;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+ }
+ #newsletter .container button{
+    outline: none;
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: orangered;
+    color: white;
+ }
+
+
+
+ #boxes .container{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .box{
+    background-color: white;
+    width: 31%;
+    text-align: center;
+   
+    padding:5px;
+ }
+
+ .box img{
+    width: 200px;
+    margin: auto;
+ }
+ .box h3{
+    padding-bottom: 15px;
+ }
+
+
+ footer{
+    background-color: #35424a;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ footer p{
+    color: white;
+    text-align: center;
+
+ }
